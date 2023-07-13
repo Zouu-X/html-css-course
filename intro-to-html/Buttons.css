@@ -1,0 +1,95 @@
+.subscribe-button {
+    background-color: #bf0000;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+    opacity: 0.8;/*fade*/
+}
+
+.subscribe-button:active {
+    opacity: 0.5;
+}
+
+.join-button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    border-color: #3b5cc9;
+    border-style: solid;
+    border-width: 2px;
+    color: #3b3bc9;
+
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+
+}
+
+.join-button:hover {
+    background-color: #3b3bc9;
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.tweet-button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #2168d9;
+    color: white;
+    border: none;
+    border-radius: 18px;/*类似形状可以设置此数值为高宽的一半*/
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+
+}
+.amazon-button {
+    background-color: #ffd814;
+    color: black;
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    border: none;
+}
+.github-button {
+    background-color: #2ea44f;
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+}
